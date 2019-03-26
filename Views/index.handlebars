@@ -1,0 +1,14 @@
+<ul>
+    {{#each articles}}
+    <div class="articleContainer">
+        <div class="article">
+            <a href={{link}}>
+                <p class="headline">{{headline}}</p>
+            </a>
+            <p class="lead">{{lead}}</p>
+        </div>
+        <button class="notesBtn btn btn-primary btn-sm" value={{_id}} headline={{headline}}>Notes</button>
+        <button class="deleteArticleBtn btn btn-danger btn-sm" value={{_id}}>Delete</button>
+    </div>
+    {{/each}}
+</ul>

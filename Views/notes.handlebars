@@ -1,0 +1,16 @@
+<h3 id="articleId" data-value={{articleId}}>{{headline}}</h3>
+<ul>
+  {{#each notes}}
+  <div class="noteContainer">
+    <div class="note">
+      <p class="noteDescription">{{noteDescription}}</p>
+    </div>
+    
+    <button class="deleteNoteBtn btn" value={{id}}>Delete</button>
+  </div>
+  {{/each}}
+</ul>
+<div class="addNoteContainer">
+  <input id="newNote" type="text" class="form-control" placeholder="Enter new note">
+  <button id="addNoteBtn" class="btn btn-primary" value={{articleId}}>Add</button>
+</div>
