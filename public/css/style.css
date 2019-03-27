@@ -1,0 +1,43 @@
+body {
+  font-family: arial;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
+.addNoteContainer,
+.articleContainer,
+.noteContainer {
+  background-color: lavender;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+ul,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+
+.btn {
+  margin-left: 5px;
+}
+.article,
+.note {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.headline {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+
